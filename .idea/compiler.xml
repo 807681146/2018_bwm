@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GPF_Common" />
+        <module name="GPF_Domain" />
+        <module name="GPF_LoginController" />
+        <module name="GPF_Mapper" />
+        <module name="GPF_SSOService" />
+        <module name="GPF_SSOServiceProvider" />
+        <module name="GPF_UserService" />
+        <module name="GPF_UserServiceProvider" />
+        <module name="GPF_Web" />
+        <module name="GPF_WebController" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BMW_Mapper" target="1.8" />
+      <module name="BMW_SSOServiceProvider" target="1.8" />
+      <module name="Bwm-Common" target="1.5" />
+      <module name="Bwm-Domain" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
